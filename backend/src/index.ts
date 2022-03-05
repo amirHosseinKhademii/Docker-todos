@@ -74,6 +74,6 @@ import { PubSub } from "graphql-subscriptions";
   });
 
   httpServer.listen(port, () =>
-    console.log(`Server is now running on http://localhost:${port}/graphql`)
+    console.log(`Server is running on http://localhost:${port}/graphql`)
   );
 })();
